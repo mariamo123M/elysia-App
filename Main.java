@@ -6,8 +6,8 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
-public class SpotifyApplication {
+public class ElysiaApplication {
     public static void main(String[] args) {
-        SpringApplication.run(SpotifyApplication.class, args);
+        SpringApplication.run(ElysiaApplication.class, args);
     }
 }
