@@ -3,5 +3,6 @@ public class RegisterRequest {
     @Email
     private String email;
     private String password;
-    private Role role; // LISTENER Or ARTIST
+    private Role role; // მსმენელი ან არტისტი
+
 }
