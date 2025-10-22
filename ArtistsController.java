@@ -25,4 +25,5 @@ public class ArtistController {
         // implement logic to extract userId from email or token
         return 1L; // placeholder
     }
+
 }
