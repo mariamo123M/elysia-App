@@ -1,21 +1,15 @@
 Elysia Music App – Final Project
-Technologies
+გამოყენებული ტექნოლოგიები
 
 Java 17
-
 Spring Boot
-
 Spring Security + JWT
-
 JavaMailSender
-
 PostgreSQL
-
 JPA / Hibernate
-
 Swagger
+JUnit + Mockito
 
-JUnit + Mockito (Coverage ≥ 80%)
 How to Run
 
 Clone the repo:
@@ -37,7 +31,7 @@ spring.mail.properties.mail.smtp.auth=true
 spring.mail.properties.mail.smtp.starttls.enable=true
 
 
-Run SpotifyApplication.java
+Run ElysiaApplication.java
 
 Access Swagger UI: http://localhost:8080/swagger-ui.html
 Roles
