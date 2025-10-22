@@ -1,6 +1,6 @@
+პროექტის ავტორი: მარიამ ბარამიძე
 Elysia Music App – Final Project
-გამოყენებული ტექნოლოგიები
-
+გამოყენებული ტექნოლოგიები:
 Java 17
 Spring Boot
 Spring Security + JWT
@@ -11,11 +11,8 @@ Swagger
 JUnit + Mockito
 
 How to Run
-
-Clone the repo:
-
+Clone the repository:
 git clone https://github.com/mariamo123M/elysiaa.git
-
 
 Configure application.properties:
 
@@ -30,18 +27,13 @@ spring.mail.password=yourpassword
 spring.mail.properties.mail.smtp.auth=true
 spring.mail.properties.mail.smtp.starttls.enable=true
 
-
 Run ElysiaApplication.java
 
 Access Swagger UI: http://localhost:8080/swagger-ui.html
 Roles
-
-Admin – manually added in DB
-
-Listener – registers & verifies via email
-
-Artist – registers, chooses ARTIST role
-Authentication
+Admin – added manually in the database.
+Listener – registers, verifies via email, can create playlists.
+Artist – same as Listener but can create albums and upload music.
 
 JWT-based login
 
@@ -63,10 +55,8 @@ Endpoints
 Auth
 
 POST /auth/register → register user
-
 POST /auth/login → login & get JWT
-
-POST /auth/verify → verify email
+pOST /auth/verify → verify email.
 
 Playlists
 
@@ -87,9 +77,7 @@ GET /music/search?keyword=... → search music
 Artist
 
 POST /artist/albums?name=...&genre=... → create album
-
 POST /artist/music?albumId=...&name=...&genre=...&author=... → upload music
-
 GET /artist/profile/{id}/similar → similar artists
 
 Recommendations
