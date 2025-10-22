@@ -1,6 +1,10 @@
 პროექტის ავტორი: მარიამ ბარამიძე
+
+
 Elysia Music App – Final Project
 გამოყენებული ტექნოლოგიები:
+
+
 Java 17
 Spring Boot
 Spring Security + JWT
@@ -12,7 +16,8 @@ JUnit + Mockito
 
 How to Run
 Clone the repository:
-git clone https://github.com/mariamo123M/elysiaa.git
+git clone https://github.com/mariamo123M/elysia-App.git
+
 
 Configure application.properties:
 
